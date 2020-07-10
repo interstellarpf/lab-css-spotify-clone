@@ -93,6 +93,8 @@ section img {
 .whats-on {
     font-size: 2rem;
     margin-bottom: 0;
+    border-bottom: #00B172 solid 2.5px;
+    padding-bottom: 10px;
 
 }
 
