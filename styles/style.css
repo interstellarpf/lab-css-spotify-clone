@@ -6,3 +6,155 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    margin-top: 0;
+}
+
+.spotify-logo {
+    height: 50px;
+    margin-left: 25px;
+}
+
+nav {
+    margin-right: 25px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.main-frame {
+    background-image: url("/images/landing.jpg");
+
+    display: flex;
+    width: 100%;
+    height: 1100px;
+    box-sizing: border-box;
+    background-size: cover;
+    flex-direction: column;
+    background-position: 0 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-frame p {
+    color: white;
+    font-size: 2rem;
+    padding: 0 25%;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 5.6rem;
+    align-self: center;
+    text-align: center;
+}
+
+section img {
+    height: 100px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    justify-content: space-around;
+
+}
+
+.whats-on {
+    font-size: 2rem;
+    margin-bottom: 0;
+
+}
+
+.icons-row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-row {
+    display: flex;
+}
+
+.icons-row p {
+    padding: 3em 3em;
+    text-align: center;
+    margin: 0 2em;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+
+}
+
+.section2>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00B172;
+    margin: 0, 25%;
+    width: 94%;
+    height: 100%;
+}
+
+.spotiapp-img {
+    height: 75%;
+}
+
+.column-kanye {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.column-kanye h2 {
+    border-bottom: white solid 2.4px;
+    padding-bottom: 10px;
+}
+
+.column-kanye p {
+    width: 50%;
+}
+
+.spotify-white {
+    position: absolute;
+}
